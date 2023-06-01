@@ -10,4 +10,4 @@ string1 = input('Enter string 1: ')
 string2 = input('Enter string 2: ')
 
 similarity_score = string_similarity(string1, string2) * 100
-print(f"String similarity: {similarity_score}")
+print(f"String similarity: {similarity_score:.2f}")
